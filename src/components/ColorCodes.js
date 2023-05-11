@@ -69,7 +69,8 @@ export default function ColorCodes() {
 
   useEffect(() => {
     getColors();
-  });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="container">
