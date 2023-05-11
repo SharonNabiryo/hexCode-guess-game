@@ -69,7 +69,7 @@ export default function ColorCodes() {
 
   useEffect(() => {
     getColors();
-  }, []);
+  });
 
   return (
     <div className="container">
