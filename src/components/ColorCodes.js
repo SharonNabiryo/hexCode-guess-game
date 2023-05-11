@@ -78,7 +78,7 @@ export default function ColorCodes() {
       <span>{hexCode}</span>
 
       <h2>Guess the color code!</h2>
-      <div className="color-container" style={{}}>
+      <div className="color-container">
         {colorCodes.map((color, index) => {
           return (
             <div

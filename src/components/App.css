@@ -10,15 +10,17 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   height: 100vh;
   background: peachpuff;
   width: 600px;
   margin: 5% auto;
-  height: 600px;
+  height: 100%;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 15px;
 }
 
 .color-container {
@@ -29,6 +31,7 @@ body {
   gap: 20px;
   margin-top: 0;
   /* background-color: red; */
+  padding: 20px;
 }
 
 .color {
